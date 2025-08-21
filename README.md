@@ -42,7 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![catfile1](./image/01-cat-file1.png)
 
 
 cat < file2

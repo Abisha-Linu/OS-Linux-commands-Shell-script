@@ -186,38 +186,38 @@ egrep '(^hello)' newfile
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
+![catfile](./image/20-catfilenew.png)
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![catfile](./image/21-catfilenew.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![catfile](./image/22-catfilenew.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-
+![catfile](./image/23-catfilenew.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![catfile](./image/24-catfilenew.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![catfile](./image/25-catfilenew.png)
 
 egrep l{2} newfile
 ## OUTPUT
-
+![catfile](./image/27-catfilenew.png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![catfile](./image/27-catfilenew.png)
 
 cat > file23
 ```

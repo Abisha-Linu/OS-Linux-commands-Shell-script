@@ -107,29 +107,29 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![catfile](./image/09-catfilenew.png)
 
 
 grep hello newfile 
 ## OUTPUT
-
+![catfile](./image/10-catfilenew.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![catfile](./image/11-catfilenew.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![catfile](./image/12-catfilenew.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![catfile](./image/13-catfilenew.png)
 
 
 

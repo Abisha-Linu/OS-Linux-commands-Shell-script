@@ -136,11 +136,12 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
-
+![catfile](./image/14-catfilenew.png)
 
 grep -w -n world newfile   
 ## OUTPUT
 
+![catfile](./image/15-catfilenew.png)
 
 cat < newfile 
 ```
@@ -164,22 +165,22 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-
+![catfile](./image/16-catfilenew.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![catfile](./image/17-catfilenew.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![catfile](./image/18-catfilenew.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![catfile](./image/19-catfilenew.png)
 
 
 egrep '(world$)' newfile 

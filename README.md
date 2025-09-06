@@ -307,10 +307,12 @@ seq 10 | sed '2,9c hello'
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
+![catfile](./image/43-catfile23.png)
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT:
 
+![catfile](./image/44-catfile23.png)
 
 #Sorting File content
 cat > file21

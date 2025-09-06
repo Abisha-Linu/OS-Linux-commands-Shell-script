@@ -217,7 +217,7 @@ egrep l{2} newfile
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![catfile](./image/27-catfilenew.png)
+![catfile](./image/28-catfilenew.png)
 
 cat > file23
 ```
@@ -236,71 +236,73 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-
+![catfile](./image/29-catfile23.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![catfile](./image/30-catfile23.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-
+![catfile](./image/31-catfile23.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-
+![catfile](./image/32-catfile23.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-
+![catfile](./image/33-catfile23.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![catfile](./image/34-catfile23.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-
+![catfile](./image/35-catfile23.png)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-
+![catfile](./image/36-catfile23.png)
 
 seq 10 
 ## OUTPUT
 
-
+![catfile](./image/37-catfile23.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-
+![catfile](./image/38-catfile23.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-
+![catfile](./image/39-catfile23.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-
+![catfile](./image/40-catfile23.png)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![catfile](./image/41-catfile23.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![catfile](./image/42-catfile23.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT

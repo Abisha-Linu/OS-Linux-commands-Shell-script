@@ -559,6 +559,8 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
+![catfile](./image/65-catfile.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -605,7 +607,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-
+![catfile](./image/66-catfile.png)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -648,6 +650,8 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+
+![catfile](./image/67-catfile.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -698,6 +702,8 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ##OUTPUT
 
+![catfile](./image/68-catfile.png)
+
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -726,6 +732,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![catfile](./image/69-catfile.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -741,6 +748,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+![catfile](./image/70-catfile.png)
 
 # using the case command
 cat >casecheck.sh 

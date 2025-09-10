@@ -769,7 +769,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT:
+
+![catfile](./image/71-catfile.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -784,7 +787,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## OUTPUT:
+
+![catfile](./image/72-catfile.png)
  
 cat untiltest.sh 
 ```bash
@@ -797,9 +802,11 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
- 
+ ./untiltest.sh
+ ## OUTPUT:
+
+ ![catfile](./image/73-catfile.png)
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -811,8 +818,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+ ./forin1.sh
+ ## OUTPUT:
+
+![catfile](./image/74-catfile.png)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -837,7 +847,10 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ## OUTPUT:
+
+![catfile](./image/75-catfile.png)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -848,7 +861,10 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ## OUTPUT:
+
+![catfile](./image/76-catfile.png)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -860,7 +876,6 @@ done
 ```
 $ chmod 755 forin1.sh
 
-## OUTPUT
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -881,8 +896,10 @@ Adilabad
 Bhadrachalam
 Khammam
 
+./forinfile.sh
 ## OUTPUT
 
+![catfile](./image/77-catfile.png)
 
 cat forctype.sh 
 ```bash

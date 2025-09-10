@@ -415,7 +415,8 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+ ![catfile](./image/56-catfileshell.png)
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -427,6 +428,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+![catfile](./image/57-catfileshell.png)
 
 cat < scriptest.sh 
 ```bash
@@ -465,24 +467,32 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+![catfile](./image/58-catfilescript.png)
  
 ls file1
 ## OUTPUT
 
+![catfile](./image/59-catfilescript.png)
+
 echo $?
 ## OUTPUT 
+
+![catfile](./image/60-catfilescript.png)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
  
+![catfile](./image/61-catfilescript.png)
+
 abcd
  
 echo $?
  ## OUTPUT
 
-
+![catfile](./image/62-catfilescript.png)
  
 # mis-using string comparisons
 

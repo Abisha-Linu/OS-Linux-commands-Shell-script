@@ -914,6 +914,8 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+![catfile](./image/78-catfile.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -926,6 +928,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+![catfile](./image/79-catfile.png)
 
 cat fornested1.sh 
 ```bash
@@ -945,6 +949,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+![catfile](./image/80-catfile.png)
  
 cat forbreak.sh 
 ```bash
@@ -960,13 +965,15 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
-cat forbreak.sh 
+ ## OUTPUT:
+
+ ![catfile](./image/81-catfile.png)
+
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -987,6 +994,8 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
  
+ ![catfile](./image/82-catfile.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1001,7 +1010,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
-
+![catfile](./image/83-catfile.png)
  cat exread1.sh
 ```bash
 #!/bin/bash
@@ -1010,12 +1019,11 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+$ ./exread1.sh
 ## OUTPUT
 
+![catfile](./image/84-catfile.png)
 
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1032,12 +1040,14 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
+## OUTPUT:
 
+![catfile](./image/85-catfile.png)
  
 cat argshift.sh
 ```bash
@@ -1049,9 +1059,11 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT:
+
+![catfile](./image/86-catfile.png)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1065,10 +1077,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
-## OUTPUT
-$ ./argshift.sh 1 2 3
- 
+$ chmod 777 argshift1.sh
+
+$ ./argshift1.sh 1 2 3
+## OUTPUT:
+
+![catfile](./image/87-catfile.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1079,9 +1094,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
+## OUTPUT
+
+ ![catfile](./image/88-catfile.png)
  
 cat > nc.awk
 ```bash
@@ -1113,6 +1129,8 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
  
+![catfile](./image/89-catfile.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1140,6 +1158,7 @@ fi
 ```
 ## OUTPUT 
 
+![catfile](./image/90-catfile.png)
 
 # RESULT:
 The Commands are executed successfully.

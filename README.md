@@ -326,6 +326,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![catfile](./image/45-catfile21.png)
 
 cat > file22
 ```
@@ -339,12 +340,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-
+![catfile](./image/46-catfile22.png)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+![catfile](./image/47-catfile23.png)
 
 cat < urllist.txt
 ```
@@ -362,12 +365,12 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-
+![catfile](./image/49-catfileurl.png)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-
+![catfile](./image/50-catfileurl.png)
 
 #Backup commands
 tar -cvf backup.tar *

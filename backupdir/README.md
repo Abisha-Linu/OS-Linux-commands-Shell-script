@@ -376,7 +376,6 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
-![catfile](./image/51-catfilebackup.png)
 
 mkdir backupdir
  
@@ -387,12 +386,9 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![catfile](./image/52-catfilebackup.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
-![catfile](./image/53-catfilebackup.png)
 
 gzip backup.tar
 

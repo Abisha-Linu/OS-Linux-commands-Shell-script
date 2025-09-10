@@ -524,13 +524,14 @@ fi
 ```
 ##OUTPUT
 
-
+![catfile](./image/63-catfilescript.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
+![catfile](./image/64-catfilescript.png)
 
 # check file ownership
 cat < psswdperm.sh 
